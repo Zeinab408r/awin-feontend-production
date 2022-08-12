@@ -1,0 +1,171 @@
+.trending {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+     }
+     .parentDiv h6{
+       color: black;
+       margin:8px 10px;
+       margin-top: auto;
+       
+     }
+     
+     .parentDiv {
+       font-family: "Noto Sans";
+       
+       position: relative  ;
+       width: 100%;
+       background: none;
+       border: none;
+       border-radius: 0;
+       margin-bottom: 5px;
+       cursor: pointer;
+       padding: 0 px;
+       font-size: 50px;
+     }
+     .nav {
+       text-align: center;
+       font-size: 22px;
+     }
+     
+     button.text-button {
+       background: none;
+       border: none;
+       border-radius: 0;
+       
+     }
+     ul  {
+       display: flex;
+       list-style-type: none;
+      
+     }
+     li{
+       padding: 0 3px;
+       margin-left: 3px;
+       font-size: 15px;
+       margin-bottom: 6px;
+     }
+     li:hover {
+       border-bottom: 2px solid #e43972;
+     }
+     #see-all {
+       margin-left: auto;
+     
+     }
+     .item{
+       min-height:20rem;
+       width: 17rem;
+       padding: 5px;
+     }
+     
+     item img{
+       border-radius: 50%;
+       pointer-events: none;
+     
+     }
+     .inner-carousel{
+       display: flex;
+       background:rgb(255, 255, 255);
+       
+     
+     }
+     
+     
+     .carousel{
+       cursor:grab;
+       overflow:hidden;
+       background: rgb(255, 255, 255);
+     
+     }
+     .titile{
+       margin-top: 6px;
+       margin-bottom: 3px;
+       margin-left: 8px;
+     }
+     .container-main-title{
+       display: flex;
+       flex-direction: row;
+      margin: 0 auto;
+      
+     }
+     
+     .container-title{
+      width: 30%;
+      height:200px;
+       box-shadow :0px 0.125rem 0.375rem #666;
+       border-radius :0.25rem;
+       margin-right: 1.25rem;
+       display: inline-block;
+       background: #9139e4;
+       color: #fff;
+       margin-top:15px;
+       font-weight: bold;
+       text-align: center;
+     
+     
+     } .container-title:hover{
+       box-shadow :0px 0.375rem 1.25rem #333;
+       cursor: pointer;
+       opacity: 0.5;
+      }
+      @media (max-width: 808px) {
+       .container-title{
+         width: 30%;
+         height: 100px;
+         font-size:10px;
+         box-shadow :0px 1px 0.25rem #666;
+       }
+       .container-title:hover{
+         box-shadow :0px 0.25rem  	0.875rem #333;
+        
+     
+        }
+     }
+
+   
+    .img-area {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 25px;
+     
+    }
+    .single-img{
+      padding:0 20px 20px;
+      
+    }
+    
+    #img-container:hover{
+      opacity: .5;
+      transition: .9s;
+    }
+
+   
+
+
+/* CSS */
+.button-container{
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-left: 10px;
+  margin-top: 20px;
+}
